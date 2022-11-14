@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+     }
+body{
+    background: url(../img/fon.jpg) no-repeat;
+    overflow:  hidden;
+}
+
+
+/* .button-container {
+    text-align:center;
+    margin:100px;
+} */
+
+#container{
+    margin-top: 50px;
+    width: 630px;
+    height: 100px;
+    margin-left: 50px;
+    transform: skew(140deg);
+}
+
+.room{
+    background-color:silver;
+    opacity: 0.7;
+    width: 450px;
+    height: 50px;
+    border:none;
+    
+}
+.btn{
+    background-color:red;
+    border:solid silver;
+    width: 150px;
+    height: 50px;
+    margin-left: -4px;
+}
+
+@media all and (max-width: 680px) {
+     
+    #container {
+        margin-top: 50px;
+        width: 630px;
+        height: 100px;
+        transform: skew(0deg);
+    }
+    .room{
+        background-color:silver;
+        border:solid silver;
+        opacity: 0.7;
+        width: 150px;
+        height: 50px;
+        border:none;
+        
+    }
+    .btn{
+        background-color:red;
+        border:solid silver;
+        width: 100px;
+        height: 50px;
+        margin-left: -4px;
+    }
+
+}
+
+.status{
+    color:red;
+    margin-top: 30px;
+    font-size: 20px;
+}
